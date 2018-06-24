@@ -1,0 +1,16 @@
+{
+  "require": {
+    "phpunit/phpunit": "^6.5"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Solution\\": "solution/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MyUniTests\\": "tests/"
+    }
+  }
+}
